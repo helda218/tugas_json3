@@ -39,15 +39,15 @@
 	echo "Sunset pada pukul ${sunset_jam}:${sunset_mt}\n";
 	echo "<br>";
 	echo "<br>";
-	echo "Saran : ";
+	
 	
 	if ($suhu >= 28) {
 
-	echo 'Gunakan sunblock atau jaket untuk melindungi kulit dari paparan sinar matahari.';
+	echo 'Cuaca Panas <br> Saran : Gunakan sunblock atau jaket untuk melindungi kulit dari paparan sinar matahari.';
 } else if ($suhu < 28 && $suhu >= 26) {
-	echo 'Keadaan cuaca aman untuk berpergian.';
+	echo 'Cuaca Berawan.';
 }  else {
-	echo 'Bawalah payung atau jas hujan jika berpergian.';
+	echo 'Cuaca Mendung <br> Saran : Bawalah payung atau jas hujan jika berpergian.';
 }
    
 ?>
