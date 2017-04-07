@@ -45,7 +45,7 @@
 
 	echo 'Gunakan sunblock atau jaket untuk melindungi kulit dari paparan sinar matahari.';
 } else if ($suhu < 28 && $suhu >= 26) {
-	echo 'Udara di luar cerah, waktu yang tepat untuk berpergian';
+	echo 'Keadaan cuaca aman untuk berpergian.';
 }  else {
 	echo 'Bawalah payung atau jas hujan jika berpergian.';
 }
